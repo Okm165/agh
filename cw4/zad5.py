@@ -26,4 +26,3 @@ def find(T, N) -> tuple:
             col_sum[j] += T[i][j]
 
     return (find_min(row_sum), find_max(col_sum))
-    
