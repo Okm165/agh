@@ -1,5 +1,5 @@
 stack = []
-def devide(val:int, bot:int, stack:list)->bool:
+def divide(val:int, bot:int, stack:list)->bool:
     if val < 0: return False
 
     elif val == 0: 
