@@ -4,8 +4,8 @@ class Node:
         self.next = None
 
 class LinkedList:
-    def __init__(self, first=None, last=None):
-        guard = Node(None,None)
+    def __init__(self):
+        guard = Node(None)
         self.first = guard
         self.last = guard
     

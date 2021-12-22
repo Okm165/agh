@@ -5,10 +5,9 @@ class Node:
 
 class LinkedList:
     # inicjalizującą tablicę
-    def __init__(self, first=None, last=None):
+    def __init__(self):
         guard = Node(None)
         self.first = guard
-        self.last = guard
 
     def find(ind):
         p = self.first.next
