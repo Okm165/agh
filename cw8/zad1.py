@@ -16,6 +16,7 @@ class LinkedList:
             if q.val == val: return (p,q)
             p = q
             q = q.next
+        if q.val == val: return (p,q)
         return None
 
     # czy element należy do zbioru
