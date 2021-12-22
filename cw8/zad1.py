@@ -1,7 +1,6 @@
 class Node:
-    def __init__(self, val, cnt=1):
+    def __init__(self, val):
         self.val = val
-        self.cnt = cnt
         self.next = None
 
 class LinkedList:
@@ -26,10 +25,7 @@ class LinkedList:
     
     # wstawienie elementu do zbioru
     def push(self, val):
-        f = self.find(val)
-        if f is not None:
-            f[1].cnt += 1
-        else:
+        if self.find(val) is None:
             node = Node(val)
             self.last.next = node
             self.last = node
@@ -38,9 +34,7 @@ class LinkedList:
     def pop(self, val):
         f = self.find(val)
         if f is not None:
-            f[1].cnt -= 1
-            if f[1].cnt <= 0:
-                f[0].next = f[1].next
+            f[0].next = f[1].next
 
     # def __str__(self)->str:
     #     ret = ""
