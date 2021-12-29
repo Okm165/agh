@@ -9,7 +9,7 @@ class LinkedList:
         guard = Node(None)
         self.first = guard
 
-    def find(ind):
+    def find(self, ind):
         p = self.first.next
         while ind > 0:
             if p is None: return None
@@ -18,12 +18,12 @@ class LinkedList:
         return p
     
     # zwracającą wartość elementu o indeksie n
-    def ind(n):
+    def ind(self, n):
         f = self.find(n)
         if f is not None: return f.val
         return None
     
     # podstawiającą wartość value pod indeks n
-    def subs(val, n):
+    def subs(self, val, n):
         f = self.find(n)
         if f is not None: f.val = val
