@@ -1,4 +1,4 @@
-from zad5 import Node
+from zad05 import Node
 
 def push(first, val):
     if first is None:

@@ -1,4 +1,4 @@
-from zad5 import Node, LinkedList
+from zad05 import Node, LinkedList
 
 def _add1(elem):
     if elem.val // 10:

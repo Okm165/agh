@@ -1,4 +1,4 @@
-from zad5 import LinkedList
+from zad05 import LinkedList
 
 def add(first1, first2):
     sum = LinkedList()

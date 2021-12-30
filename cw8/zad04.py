@@ -1,4 +1,4 @@
-from zad3 import Node, LinkedList
+from zad03 import Node, LinkedList
 
 def reverse(list1) -> Node:
     prev = list1
