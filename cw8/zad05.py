@@ -23,7 +23,7 @@ class LinkedList:
         ret = str()
         p = self.first
         while p is not None:
-            ret += str(p.val)+", "
+            ret += str(p.val) + ", "
             p = p.next
         return ret
 
