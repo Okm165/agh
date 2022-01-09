@@ -4,9 +4,9 @@ class Node:
         self.next = None
 
 class LinkedList:
-    def __init__(self):
-        self.first = None
-        self.last = None
+    def __init__(self, first = None, last = None):
+        self.first = first
+        self.last = last
 
     # wstawienie elementu do zbioru
     def push(self, val):
