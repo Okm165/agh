@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "stdlib.h": "c",
+    "*.tcc": "c",
+    "hash_map": "c",
+    "chrono": "c",
+    "algorithm": "c"
+  }
+}
